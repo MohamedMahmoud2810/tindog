@@ -1,0 +1,151 @@
+body{
+  font-family: "Montserrat-bold";
+  font-size: 50px;
+
+}
+#title{
+  background-color: #ff4c68;
+  color : #fff;
+}
+/*heading*/
+h1{
+  line-height: 1.5;
+  text-align: center;
+  font-size: 5rem;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  font-size: 55px;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/*Title image*/
+.rot{
+  transform: rotate(25deg);
+  margin-top: 20px;
+  position: absolute;
+}
+
+/*navbar*/
+.navbar-brand{
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/*download button*/
+.download-button{
+  margin: 5% 5% 5% 0;
+  margin-left: 50px;
+  width:170px;
+}
+.icon{
+  color: #ef8172;
+}
+/*features*/
+.fa-3x:hover{
+  color: #ff4c68;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.radio{
+  border-radius: 100%;
+  width:200px;
+  margin: 20px;
+}
+
+/*press*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  margin: 20px 30px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding:100px;
+}
+.btn-block{
+  font-size: 50px;
+}
+.pricing-column{
+  padding : 2% 4%;
+  text-align: center;
+}
+
+/*CTA section*/
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 200px;
+  padding: 5% 12%;
+  font-family: "Montserrat-black";
+  color: #fff;
+}
+.cta-button{
+  margin-top: 30px;
+}
+/*footersection*/
+#footer{
+  text-align: center;
+  margin-top: 120px;
+  font-size: 20px;
+}
+.rr{
+  padding-left: 25px;
+}
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .rot{
+    position: static;
+    transform: rotate(0);
+  }
+}
